@@ -13,7 +13,8 @@ from public.BasePage import BasePage
 class Test_Open():
     # 启动APP, 进入开户界面
 
-    allure.feature("启动APP, 进入开户界面")
+    @allure.feature("启动APP, 进入开户界面")
+    @pytest.mark.run(order=1)
     def test_open(self, driver):
         bar = BottomBarPage(driver)
         import pdb; pdb.set_trace()
@@ -26,4 +27,4 @@ class Test_Open():
 
 
 if __name__ == '__main__':
-    pytest.main(["-s","test_open.py"])
+    pytest.main(["-s","test_open.py", '--alluredir', './report/xml'])
