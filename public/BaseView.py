@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class BasePage(object):
+class BaseView(object):
 
     def __init__(self, driver):
         self.driver = driver
@@ -46,10 +46,16 @@ class BasePage(object):
             flag = False
             return flag
 
+    def find_uiautomator(self, uiautomator):
+        try:
+            return self.driver.find_element_by_android_uiautomator(uiautomator)
+
+        except:
+            print(u"%s 页面中未能找到 %s 元素" % (self, uiautomator))
+            flag = False
+            return flag
 
 
 
 if __name__ == '__main__':
     BasePage()
-    # device = os.popen('adb').read()
-    # print(device)
