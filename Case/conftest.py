@@ -20,7 +20,7 @@ def driver():
         'deviceName': deviceId,
         'appPackage': 'io.newtype.eddid.app',
         'appActivity': 'com.bartech.app.main.launcher.LauncherActivity',
-        'newCommandTimeout' : 120
+        'newCommandTimeout' : 200
         # 'unicodeKeyboard': True,
         # 'resetKeyboard': True
     }
@@ -30,3 +30,8 @@ def driver():
     yield driver
     print("所有用例执行完成, 关闭driver")
     driver.quit()
+    print("正在生成html报告")
+    import pdb; pdb.set_trace()
+    # os.popen("allure generate ./report/xml -o ./report/html --clean")
+    os.popen("allure generate {xml} -o {html} --clean".format(xml=os.getcwd() + r'\EDDID_APP\report\xml',
+                                                              html=os.getcwd() + r'\EDDID_APP\report\html'))
