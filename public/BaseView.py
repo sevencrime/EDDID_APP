@@ -48,6 +48,7 @@ class BaseView(object):
 
     def find_uiautomator(self, uiautomator):
         try:
+            WebDriverWait(self.driver, 10).until(lambda driver: driver.find_element_by_android_uiautomator(uiautomator).is_displayed())
             return self.driver.find_element_by_android_uiautomator(uiautomator)
 
         except:

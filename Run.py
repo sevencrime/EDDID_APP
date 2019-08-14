@@ -3,6 +3,7 @@
 
 import pytest
 import allure
+import os
 
 
-pytest.main(['-v', r'D:\Test\EDDID_APP\Case', '--pdb', '--alluredir', 'D:/Test/EDDID_APP/report/xml'])
+pytest.main(['-v', r'D:\Test\EDDID_APP\Case', '--pdb', '--alluredir', os.getcwd() + r'\EDDID_APP\report\xml'])
