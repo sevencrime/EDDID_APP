@@ -13,7 +13,8 @@ from public.GlobalMap import GlobalMap
 def confini():
     gbm = GlobalMap()
     gbm.set_value(trading=True)
-
+    gbm.set_value(phone_number = "15089514620")
+    gbm.set_value(paswd = "abcd1234")
 
 
 @pytest.fixture(scope="session", autouse=True)

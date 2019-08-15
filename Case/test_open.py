@@ -5,10 +5,8 @@
 import pytest
 import allure
 import time
-from ElementPage.openAccountPage import openAccountPage
 from ElementPage.bottomBarPage import bottomBarPage
 from ElementPage.registerPage import registerPage
-from public.BaseView import BaseView
 from public.GlobalMap import GlobalMap
 
 
@@ -33,7 +31,7 @@ class Test_Open():
         with allure.step("点击便捷开户"):
             # 点击便捷开户
             print("start**********", time.asctime( time.localtime(time.time()) ))
-            openAccountPage(driver).click_easytoOpen()
+            registerPage(driver).click_easytoOpen()
             print("end**********", time.asctime( time.localtime(time.time()) ))
 
 

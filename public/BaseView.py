@@ -6,8 +6,12 @@ import sys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from public.GlobalMap import GlobalMap
+
 
 class BaseView(object):
+
+    gbm = GlobalMap()
 
     def __init__(self, driver):
         self.driver = driver
@@ -57,6 +61,3 @@ class BaseView(object):
             return flag
 
 
-
-if __name__ == '__main__':
-    BasePage()
