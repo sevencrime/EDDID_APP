@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dcced0ff-9c5b-4235-a15e-5e8cdf795a77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/publicFunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/publicFunc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/test_identityInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/test_identityInformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/test_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElementPage/IdentityInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementPage/IdentityInformationPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElementPage/registerPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementPage/registerPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/BaseView.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/BaseView.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ElementPage/IdentityInformationPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="-228">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding>
                 <element signature="e#47#90#0" expanded="true" />
               </folding>
@@ -397,7 +389,7 @@
       <workItem from="1565574058643" duration="24185000" />
       <workItem from="1565687709987" duration="1102000" />
       <workItem from="1565689018014" duration="6344000" />
-      <workItem from="1565772027980" duration="29093000" />
+      <workItem from="1565772027980" duration="29117000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1565534783217</created>
@@ -434,11 +426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565864563026</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="身份证">
+      <created>1565949374198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565949374198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82626000" />
+    <option name="totallyTimeSpent" value="82650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,12 +452,12 @@
     <frame x="15" y="86" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20225322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20225322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" visible="true" weight="0.39222223" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839056" visible="true" weight="0.5822222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,7 +484,8 @@
     <MESSAGE value="进入表单" />
     <MESSAGE value="增加等待" />
     <MESSAGE value="apply表单" />
-    <option name="LAST_COMMIT_MESSAGE" value="apply表单" />
+    <MESSAGE value="身份证" />
+    <option name="LAST_COMMIT_MESSAGE" value="身份证" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Eddid_App$test_open__1_.coverage" NAME="test_open (1) Coverage Results" MODIFIED="1565512854985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
@@ -662,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ElementPage/IdentityInformationPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-228">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding>
             <element signature="e#47#90#0" expanded="true" />
           </folding>
