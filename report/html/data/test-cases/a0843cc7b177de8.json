@@ -1,0 +1,201 @@
+{
+  "uid" : "a0843cc7b177de8",
+  "name" : "test_open",
+  "fullName" : "EDDID_APP.Case.test_open.Test_Open#test_open",
+  "historyId" : "eb536985b26309999a090498b4027418",
+  "time" : {
+    "start" : 1565945913858,
+    "stop" : 1565945923256,
+    "duration" : 9398
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "confini",
+    "time" : {
+      "start" : 1565945900429,
+      "stop" : 1565945900429,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1565945900429,
+      "stop" : 1565945913856,
+      "duration" : 13427
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "处理弹出权限",
+      "time" : {
+        "start" : 1565945913858,
+        "stop" : 1565945921141,
+        "duration" : 7283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击便捷开户",
+      "time" : {
+        "start" : 1565945921141,
+        "stop" : 1565945923256,
+        "duration" : 2115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4f8cf7a77e994edb",
+      "name" : "stdout",
+      "source" : "4f8cf7a77e994edb.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1565945943833,
+      "stop" : 1565945944108,
+      "duration" : 275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击便捷开户"
+  }, {
+    "name" : "feature",
+    "value" : "启动APP, 进入开户界面"
+  }, {
+    "name" : "parentSuite",
+    "value" : "EDDID_APP.Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_open"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Open"
+  }, {
+    "name" : "host",
+    "value" : "DT003-SZ01-NEWT"
+  }, {
+    "name" : "thread",
+    "value" : "12824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "EDDID_APP.Case.test_open"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a5f42d93cb0a892",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565945592837,
+        "stop" : 1565945603056,
+        "duration" : 10219
+      }
+    }, {
+      "uid" : "d721d0a4d51c7462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565945503286,
+        "stop" : 1565945512088,
+        "duration" : 8802
+      }
+    }, {
+      "uid" : "b34860b322195ec6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565944383611,
+        "stop" : 1565944392100,
+        "duration" : 8489
+      }
+    }, {
+      "uid" : "eef9b3fc30bc93d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565944144020,
+        "stop" : 1565944152956,
+        "duration" : 8936
+      }
+    }, {
+      "uid" : "1bc18f0a8fda727e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565940174221,
+        "stop" : 1565940182866,
+        "duration" : 8645
+      }
+    }, {
+      "uid" : "51b3c5376efdf835",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565937377801,
+        "stop" : 1565937387567,
+        "duration" : 9766
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0843cc7b177de8.json",
+  "parameterValues" : [ ]
+}

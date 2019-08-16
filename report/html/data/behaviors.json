@@ -1,0 +1,68 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "启动APP, 进入开户界面",
+    "children" : [ {
+      "name" : "点击便捷开户",
+      "children" : [ {
+        "name" : "test_open",
+        "uid" : "a0843cc7b177de8",
+        "parentUid" : "23dafdd9cf87710e9bc278e712e0715a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565945913858,
+          "stop" : 1565945923256,
+          "duration" : 9398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23dafdd9cf87710e9bc278e712e0715a"
+    } ],
+    "uid" : "8c1272a53cf38a255f7a89323237c7d3"
+  }, {
+    "name" : "登录账户",
+    "children" : [ {
+      "name" : "登录账户",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "5fb8c3edbfab0216",
+        "parentUid" : "f473e7249575aaf0bf59452a3b7af25e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565945923274,
+          "stop" : 1565945936017,
+          "duration" : 12743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f473e7249575aaf0bf59452a3b7af25e"
+    } ],
+    "uid" : "8b50598d86b1a40ff6d56fbfd0e3bd11"
+  }, {
+    "name" : "选择所属地区和开户准备",
+    "children" : [ {
+      "name" : "选择所属地区页面",
+      "children" : [ {
+        "name" : "test_SelectAreaforchinese",
+        "uid" : "bdf46410fd378ed4",
+        "parentUid" : "fda1adf0ef4033e5a3359dad8ad85b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565945936024,
+          "stop" : 1565945943833,
+          "duration" : 7809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fda1adf0ef4033e5a3359dad8ad85b5c"
+    } ],
+    "uid" : "aa01450fb596418a535f5d0cdf9854d2"
+  } ]
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a0843cc7b177de8",
+  "name" : "test_open",
+  "time" : {
+    "start" : 1565945913858,
+    "stop" : 1565945923256,
+    "duration" : 9398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fb8c3edbfab0216",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1565945923274,
+    "stop" : 1565945936017,
+    "duration" : 12743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdf46410fd378ed4",
+  "name" : "test_SelectAreaforchinese",
+  "time" : {
+    "start" : 1565945936024,
+    "stop" : 1565945943833,
+    "duration" : 7809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

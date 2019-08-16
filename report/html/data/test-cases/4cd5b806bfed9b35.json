@@ -1,0 +1,145 @@
+{
+  "uid" : "4cd5b806bfed9b35",
+  "name" : "test_login",
+  "fullName" : "EDDID_APP.Case.test_register.Test_register#test_login",
+  "historyId" : "cb98d271bb560e3b1a3fdf6e6754cdc5",
+  "time" : {
+    "start" : 1565945603065,
+    "stop" : 1565945615182,
+    "duration" : 12117
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "注册页面点击'去登陆'按钮",
+      "time" : {
+        "start" : 1565945603065,
+        "stop" : 1565945604929,
+        "duration" : 1864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入账户",
+      "time" : {
+        "start" : 1565945604929,
+        "stop" : 1565945606370,
+        "duration" : 1441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1565945606370,
+        "stop" : 1565945608696,
+        "duration" : 2326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1565945608696,
+        "stop" : 1565945615072,
+        "duration" : 6376
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "等待loading",
+      "time" : {
+        "start" : 1565945615072,
+        "stop" : 1565945615182,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录账户"
+  }, {
+    "name" : "feature",
+    "value" : "登录账户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "EDDID_APP.Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_register"
+  }, {
+    "name" : "host",
+    "value" : "DT003-SZ01-NEWT"
+  }, {
+    "name" : "thread",
+    "value" : "18952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "EDDID_APP.Case.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cd5b806bfed9b35.json",
+  "parameterValues" : [ ]
+}

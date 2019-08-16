@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "EDDID_APP.Case",
+    "children" : [ {
+      "name" : "test_open",
+      "children" : [ {
+        "name" : "test_open",
+        "uid" : "a0843cc7b177de8",
+        "parentUid" : "e0c87b110f1980fa059c4e12bbd1c875",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565945913858,
+          "stop" : 1565945923256,
+          "duration" : 9398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0c87b110f1980fa059c4e12bbd1c875"
+    }, {
+      "name" : "test_register",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "5fb8c3edbfab0216",
+        "parentUid" : "eeea3356ad365d13608b0cf068cf4b43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565945923274,
+          "stop" : 1565945936017,
+          "duration" : 12743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eeea3356ad365d13608b0cf068cf4b43"
+    }, {
+      "name" : "test_identityInformation",
+      "children" : [ {
+        "name" : "test_SelectAreaforchinese",
+        "uid" : "bdf46410fd378ed4",
+        "parentUid" : "67c71e8bf67908dfd172179e908706dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565945936024,
+          "stop" : 1565945943833,
+          "duration" : 7809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67c71e8bf67908dfd172179e908706dc"
+    } ],
+    "uid" : "EDDID_APP.Case"
+  } ]
+}

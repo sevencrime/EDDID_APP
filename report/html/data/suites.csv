@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 16 16:58:33 CST 2019","Fri Aug 16 16:58:43 CST 2019","9398","EDDID_APP.Case","test_open","Test_Open","","","test_open",""
+"passed","Fri Aug 16 16:58:43 CST 2019","Fri Aug 16 16:58:56 CST 2019","12743","EDDID_APP.Case","test_register","Test_register","","","test_login",""
+"passed","Fri Aug 16 16:58:56 CST 2019","Fri Aug 16 16:59:03 CST 2019","7809","EDDID_APP.Case","test_identityInformation","Test_identityInformation","","","test_SelectAreaforchinese",""

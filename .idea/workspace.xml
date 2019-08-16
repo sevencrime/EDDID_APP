@@ -2,7 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcced0ff-9c5b-4235-a15e-5e8cdf795a77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/GlobalMap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/40a88a4cb9233bdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/4f8cf7a77e994edb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/54799cee75c1ca03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/95883096cbd10133.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/aa492a6ddbacf3a0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/b9638789c909e019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/c48adb9a408b5d75.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/attachments/d4462c1b970a8c40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/1bc18f0a8fda727e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/4cd5b806bfed9b35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/51b3c5376efdf835.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/5fb8c3edbfab0216.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/9a5f42d93cb0a892.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/a0843cc7b177de8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/b34860b322195ec6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/bdf46410fd378ed4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/d721d0a4d51c7462.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/eef9b3fc30bc93d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/plugins/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/plugins/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/plugins/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/plugins/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/html/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/1fad021b-1b42-4468-857a-15eed45e02b9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/29f12d93-c602-40c3-9dbd-a13fa7b5b7f1-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/2a76b011-15d1-4e67-a82f-b1019c8d925d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/2dc41d0f-293a-42c7-ad52-5ae53c14d137-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/3e4f8722-4867-4054-aa16-e89a9e7a85fd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/52a8b974-ae58-471a-b7a1-4ae35fd3a676-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/5e1bda5b-34af-41af-9272-09094f675107-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/650fb906-98a8-49b0-8c92-9b5a1f752b19-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/6971900e-0e5a-4005-b0b9-930e60fdb54e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/6d0ab6cc-f1f6-4b66-8036-1e8ad3d106d4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/70d38fdb-aed0-4337-816c-4b930b91f042-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/7344a6e2-4c78-4a8c-abcd-dbea0670a83a-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/744cb86d-8964-4775-8e80-156510ff7d87-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/74e74c8b-c11d-4e35-9d9a-9cfd7aa29d44-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/7a357b87-153f-4d8d-b9ef-0605671081ea-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/83a3c314-956d-48c0-8130-5194796a1bfc-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/871fbd8c-5875-43a5-a101-679d73e23239-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/8987ec37-a0f8-4b6e-9afb-9ae1eb0255ee-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/8d32229c-8cc4-47e9-89a3-170bebd501a7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/8e0117a1-bc7b-470c-ba71-49a35adc6f40-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/9985f05d-76d9-4405-8772-cd0cc39c59b8-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/99a2e99f-f4e8-4500-bf68-511dd7d0007a-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/a31d94f8-9a77-462e-b18a-0986ba58187a-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/c0d0fa9e-1af1-4731-b6e4-f0418eee1d4d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/c34f78cf-666e-4000-9ef7-d78b06a4b8ea-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/xml/dae767c6-4a03-4edf-a7e5-ccc6eb8d5f0c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get-2019.4.13-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get-2019.4.13-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get-2019.4.13-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get-2019.4.13-py3.6.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get-2019.4.13-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get-2019.4.13-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/post-2019.4.13-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/post-2019.4.13-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/post-2019.4.13-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/post-2019.4.13-py3.6.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/post-2019.4.13-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/post-2019.4.13-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/post/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/public-2019.4.13-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/public-2019.4.13-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/public-2019.4.13-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/public-2019.4.13-py3.6.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/public-2019.4.13-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/public-2019.4.13-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/public/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering-0.6.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytest_ordering/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/query_string-2019.4.13-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/query_string-2019.4.13-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/query_string-2019.4.13-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/query_string-2019.4.13-py3.6.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/query_string-2019.4.13-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/query_string-2019.4.13-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/query_string/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/request-2019.4.13-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/request-2019.4.13-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/request-2019.4.13-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/request-2019.4.13-py3.6.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/request-2019.4.13-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/request-2019.4.13-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/request/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,8 +252,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ElementPage/IdentityInformationPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="247">
+              <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
               <folding>
                 <element signature="e#47#90#0" expanded="true" />
               </folding>
@@ -171,8 +300,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="86" />
+    <option name="x" value="-171" />
+    <option name="y" value="99" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -389,7 +518,7 @@
       <workItem from="1565574058643" duration="24185000" />
       <workItem from="1565687709987" duration="1102000" />
       <workItem from="1565689018014" duration="6344000" />
-      <workItem from="1565772027980" duration="29117000" />
+      <workItem from="1565772027980" duration="29160000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1565534783217</created>
@@ -433,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565949374198</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="身份证">
+      <created>1565949402766</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565949402766</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82650000" />
+    <option name="totallyTimeSpent" value="82693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,15 +585,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="86" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-171" y="99" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20225322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20225322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839056" visible="true" weight="0.5822222" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.5822222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -662,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ElementPage/IdentityInformationPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="247">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
           <folding>
             <element signature="e#47#90#0" expanded="true" />
           </folding>

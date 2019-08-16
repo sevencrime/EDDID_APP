@@ -1,0 +1,153 @@
+{
+  "uid" : "bdf46410fd378ed4",
+  "name" : "test_SelectAreaforchinese",
+  "fullName" : "EDDID_APP.Case.test_identityInformation.Test_identityInformation#test_SelectAreaforchinese",
+  "historyId" : "902e574fa4a14a73c02cc983bdc756a8",
+  "time" : {
+    "start" : 1565945936024,
+    "stop" : 1565945943833,
+    "duration" : 7809
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "confini",
+    "time" : {
+      "start" : 1565945900429,
+      "stop" : 1565945900429,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1565945900429,
+      "stop" : 1565945913856,
+      "duration" : 13427
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择中国居民",
+      "time" : {
+        "start" : 1565945936024,
+        "stop" : 1565945942529,
+        "duration" : 6505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "开户准备页面点击下一步",
+      "time" : {
+        "start" : 1565945942529,
+        "stop" : 1565945943833,
+        "duration" : 1304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c48adb9a408b5d75",
+      "name" : "stdout",
+      "source" : "c48adb9a408b5d75.txt",
+      "type" : "text/plain",
+      "size" : 62
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1565945943833,
+      "stop" : 1565945944108,
+      "duration" : 275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "选择所属地区页面"
+  }, {
+    "name" : "feature",
+    "value" : "选择所属地区和开户准备"
+  }, {
+    "name" : "parentSuite",
+    "value" : "EDDID_APP.Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_identityInformation"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_identityInformation"
+  }, {
+    "name" : "host",
+    "value" : "DT003-SZ01-NEWT"
+  }, {
+    "name" : "thread",
+    "value" : "12824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "EDDID_APP.Case.test_identityInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdf46410fd378ed4.json",
+  "parameterValues" : [ ]
+}

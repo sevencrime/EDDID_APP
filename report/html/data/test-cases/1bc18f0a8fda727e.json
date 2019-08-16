@@ -1,0 +1,106 @@
+{
+  "uid" : "1bc18f0a8fda727e",
+  "name" : "test_open",
+  "fullName" : "EDDID_APP.Case.test_open.Test_Open#test_open",
+  "historyId" : "eb536985b26309999a090498b4027418",
+  "time" : {
+    "start" : 1565940174221,
+    "stop" : 1565940182866,
+    "duration" : 8645
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "处理弹出权限",
+      "time" : {
+        "start" : 1565940174221,
+        "stop" : 1565940180127,
+        "duration" : 5906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击便捷开户",
+      "time" : {
+        "start" : 1565940180127,
+        "stop" : 1565940182865,
+        "duration" : 2738
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "40a88a4cb9233bdb",
+      "name" : "stdout",
+      "source" : "40a88a4cb9233bdb.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "启动APP, 进入开户界面"
+  }, {
+    "name" : "story",
+    "value" : "点击便捷开户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "EDDID_APP.Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_open"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Open"
+  }, {
+    "name" : "host",
+    "value" : "DT003-SZ01-NEWT"
+  }, {
+    "name" : "thread",
+    "value" : "14040-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "EDDID_APP.Case.test_open"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bc18f0a8fda727e.json",
+  "parameterValues" : [ ]
+}
